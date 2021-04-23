@@ -1,5 +1,5 @@
 {
-  "name": "wedge",
+  "name": "wedge.js",
   "version": "1.0.0",
   "description": "Fokin ŠPALEK",
   "main": "index.js",
@@ -8,19 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Terzu05/WedGE.git"
+    "url": "git+https://github.com/Terzu05/WedGE.js.git"
   },
   "keywords": [
     "doo",
     "doo",
     "studio",
     "WedGE",
-    "wedge"
+    "wedge",
+    "WedGE.js",
+    "wedge.js"
   ],
   "author": "Terzu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Terzu05/WedGE/issues"
+    "url": "https://github.com/Terzu05/WedGE.js/issues"
   },
-  "homepage": "https://github.com/Terzu05/WedGE#readme"
+  "homepage": "https://github.com/Terzu05/WedGE.js#readme"
 }
