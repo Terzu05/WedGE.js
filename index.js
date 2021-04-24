@@ -7,7 +7,7 @@ var person = {
     }
 };
 
-function lol()
+function lol(option)
 {
     var logMessage = "WedGE: " + option
     console.log(logMessage);
