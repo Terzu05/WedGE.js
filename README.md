@@ -30,7 +30,7 @@ Afthe that your html file should look somewhat like this:
 
 ## JasvaScript file
 
-Type `wedge.setup()` in your script, this will setup wedge and link it to your game canvas. Then if you'd want to make your WedGE ojects move, you will need to use `wedge.update()` this function updates all WedGE objects every frame. (More about those functions later.)
+Type `wedge.setup()` in your script, this will setup wedge and link it to your game canvas. Then if you'd want to make your WedGE ojects move, you will need to use [`wedge.update()`](#update-function)  this function updates all WedGE objects every frame. (More about those functions later.)
 
 ```javascript
 wedge.setup()
