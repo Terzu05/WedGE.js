@@ -70,10 +70,6 @@ WedGE.js works with WedGE objects. They are special objects whitch are the core 
 >  b) isFriction - (boolean)
 >  c) friction - (number)
 
-### WedGE object methods
-
-.move() it just consollogs name of the object is moving. That's it. (There will by functionality eventually, I swear.)
-
 ### Creating a WedGE object
 
 You create WedGE object same way as you would a normal object, but from `wedge.object()` class. Ex.: `var object = new wedge.object()` (you don't need to name it 'object')
