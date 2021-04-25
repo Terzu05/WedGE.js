@@ -76,7 +76,7 @@ WedGE.js works with WedGE objects. They are special objects whitch are the core 
 
 ### Creating a WedGE object
 
-You create WedGE object same way as you would a normal object, but from `wedge.objecr()` class. Ex.: `var object = new wedge.object()` (you don't need to name it 'object')
+You create WedGE object same way as you would a normal object, but from `wedge.object()` class. Ex.: `var object = new wedge.object()` (you don't need to name it 'object')
 When creating WedGE object you can input it some parameters.
 ```javascript
 var object = new wedge.object(name, posX, posY, width, height, sprite, color)
