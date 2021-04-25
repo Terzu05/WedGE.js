@@ -70,6 +70,10 @@ WedGE.js works with WedGE objects. They are special objects whitch are the core 
 >  b) isFriction - (boolean)
 >  c) friction - (number)
 
+### WedGE object methods
+
+.move() it just consollogs name of the object is moving. That's it. (There will by functionality eventually, I swear.)
+
 ### Creating a WedGE object
 
 You create WedGE object same way as you would a normal object, but from `wedge.objecr()` class. Ex.: `var object = new wedge.object()` (you don't need to name it 'object')
@@ -95,6 +99,8 @@ wedge.setup()
 var object = new wedge.object('mikel', 0, 0, 100, 100, 'rectangle', 'white')
 
 object.transform.position.x = 100;
+
+wedge.update()
 
 console.log(object);
 ```
@@ -128,9 +134,56 @@ object
 }
 ```
 
+## Update function
+
+### Why dont just use while(true)
+
+Firstly thats just a bad idea.
+Secondly evan if you don't need to repeat any code. This function will update every WedGE object automaticly and without it your object will not move and work properly.
+
+### How to use it?
+
+```javascript
+wedge.update(function() {
+
+  //code that will run every frame
+
+})
+```
+
+it's that simple
+
+## Log function
+
+### When to use it?
+
+You can use it if you want to know if WedGE works properly. Or you want to log something in your game code and distinguish it from normal log messages.
+
+### How to use it?
+
+```
+wedge.log(message)
+//message is optional (message = "I'm working.") <<< default
+```
+
+Example:
+```javascript
+wedge.log()
+
+wedge.log('How are you?')
+```
+
+Example console output:
+```
+WedGE: I'm working.
+WedGE: How are you?
+```
+
+# The End.
+
 Web
-enviroment
-doo studio
+e
+d
 Game
 Engine
 
