@@ -129,8 +129,8 @@ object
 ```
 
 Web
-e
-d
+enviroment
+doo studio
 Game
 Engine
 
